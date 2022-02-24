@@ -1,0 +1,36 @@
+@keyframes bounce {
+  from {
+    top: -2rem;
+  }
+  50% {
+    top: 1rem;
+  }
+  to {
+    top:-2rem;
+  }
+}
+
+@keyframes waves {
+  from {
+    left:-5rem;
+  }
+  50% {
+    left: 0rem;
+  }
+  to {
+    left: -5rem;
+  }
+}
+
+@keyframes cross-screen {
+  from {
+    left: -18vw;
+  }
+  to {
+    left: 118vw;
+  }
+}
+
+.interactable:hover {
+  background-image: url("../public/images/sparkles.gif");
+}

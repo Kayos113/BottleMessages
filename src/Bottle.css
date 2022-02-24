@@ -1,0 +1,7 @@
+#bottle {
+  position: absolute;
+  top: 1rem;
+  left: -18vw;
+  height: 10rem;
+  animation: bounce 3s ease-in-out infinite 0s, cross-screen 28s linear infinite 0s ;
+}

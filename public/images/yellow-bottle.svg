@@ -1,0 +1,41 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476 476" width="476" height="476">
+	<title>bottle-svgrepo-com-svg</title>
+	<defs>
+		<image  width="119" height="451" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAHDAgMAAABje23OAAAAAXNSR0IB2cksfwAAAAxQTFRFAAAA/8k8/8k8/8k8R3/q9QAAAAR0Uk5TAE/P/6k1iGsAAALlSURBVHic7ZtLctswDIbldiZeZJEDeOEj5AjSjXwE6Qi+kXwEHUGLtmsvuFBm9KhJiCYJAlBnMm6dDrBJos8CfoAmJySkogA7LIn9KBLbtSmeqwTvF2Rdgo8YmwTXGE8JbjGeE4zpsvw9vCFtI7EjxmlZNoq6w6GrBBenFKMBvRuMe8VQiPLBUSiQ4bEt0JXH9aew7HwnS9vn4xHfDCN7zsALP17WkiEdMvwe4zHDpWLFihUrVqxYsWLFihUr/ie4lnEb43wrGVN0MFBk23eM0ea/QviY4o3TGqQtO1hIt7lHjJNtLvaNvGe+U++Z79R7nePIOz7xcBYqQ4SOz0yI0HFwInQUnAwdgpOhQ3AydAhOhg7HBy2NJ1GZ10Yo+xVpy5VNcK13+D3DA3g0jHADegZG+BUuTozw6+rSSv9GYqetofO6aXr1mb3meFpv6ukBmaMTozxtp8lKH5jx6uDyyIyXAacTM14DSJrJtN1tLqGi+E7hec2sorG/3jBf0waCXqiiLTazHfx4I3EPCffMl9z4Uzyqpi7x0uGSxBOUjcMzlM0w+FavNxdDxCOHK1eQkZueUM6Rm54XV/SROEH+E9zJuHdDxuKrGzIBF4oVK1asWLFixYoVK1asWPEXwUbGg4xHeYs8yRvspdqL+KMV8apAseInxz9bEcvTYGMSbUzBjQm8Mf2feOH6yovmI9fU80HEawjFihX/v7iVcS3j8nF4YFpYqxmuywt2Zbprq/VcCxmso/uC3hq+C2ytYnvI1ma+A21t4vvX1gzdbPXW8c3xVZkgfZK6474HzWrrHH7hcCX23n3j/0Bj/7wFrT28iXGicHhYI3+WIn2NIxePXvJA/rn3NA4SLHx/N3z8nHKrsgl/1ui1B1tCL+t2a4s0lsv96ZZdawr8sEoZ7j7c5hhOsb7HvhXLLR7J7Vbaxf128mtLJD4kFv9rcf+ALwuU+alXxYfiVsa1hD+3Knb8/FzsN+E3BZNXsw9DalwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="Layer 1" style="opacity: .5" href="#img1" x="178" y="12" />
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m309.9 210.1v246.9c0 10.3-8.4 18.8-18.8 18.8h-106.4c-10.4 0-18.8-8.5-18.8-18.8v-246.9c0-24.1 12.2-46.8 32.2-60v-113.5c-5.2-3.6-8.7-9.7-8.7-16.5c0-11.1 9-20.1 20.1-20.1h56.8c11.1 0 20.1 9 20.1 20.1c0 6.8-3.5 12.9-8.7 16.5v113.5c20 13.2 32.2 35.9 32.2 60zm-15 246.9v-13.1c-8.3 7.7-19.5 8.5-31.8 8.5c-4.1 0-7.5-3.4-7.5-7.5c0-4.2 3.4-7.5 7.5-7.5c17.6 0 31.8-10.3 31.8-27.8v-199.5c0-20.3-10.9-39.2-28.5-49.4c-2.1-1.2-3.5-3.4-3.7-5.9q0-0.4 0-0.8v-114.1c-3.3-0.8-5.7-3.7-5.7-7.3c0-4.1 3.3-7.5 7.5-7.5h1.8c2.8 0 5.1-2.2 5.1-5c0-2.8-2.3-5.1-5.1-5.1h-56.8c-2.8 0-5.1 2.3-5.1 5.1c0 2.8 2.3 5 5.1 5h28.4c4.1 0 7.5 3.4 7.5 7.5c0 4.2-3.4 7.5-7.5 7.5h-24.8v114c0.1 2.7-1.3 5.2-3.7 6.6c-17.6 10.2-28.5 29.1-28.5 49.4v199.5c0 17.5 14.2 27.8 31.8 27.8h25.6c4.1 0 7.5 3.3 7.5 7.5c0 4.1-3.4 7.5-7.5 7.5h-25.6c-12.3 0-23.5-0.8-31.8-8.5v13.1c0 2.1 1.7 3.8 3.8 3.8h106.4c2.1 0 3.8-1.7 3.8-3.8zm-10.1-92.9v11.4c0 4.1-3.3 7.5-7.5 7.5c-4.1 0-7.5-3.4-7.5-7.5v-11.4c0-4.1 3.4-7.5 7.5-7.5c4.2 0 7.5 3.4 7.5 7.5zm-25.9-178c-2.7-3.2-2.2-7.9 1-10.6c3.2-2.6 7.9-2.2 10.5 1c9.3 11.3 14.4 25.6 14.4 40.2v115.2c0 4.1-3.3 7.5-7.5 7.5c-4.1 0-7.5-3.4-7.5-7.5v-115.2c0-11.2-3.9-22-10.9-30.6z" />
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>

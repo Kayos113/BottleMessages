@@ -1,0 +1,39 @@
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 70vh;
+  min-width: 100vw;
+  background-color: var(--ch-sky-blue);
+}
+
+.cloud {
+  display: inline;
+  position: absolute;
+  left: -18vw;
+  width: 7rem;
+  opacity: 0;
+  opacity: 65%;
+}
+.one {
+  top: 6rem;
+  animation: cross-screen 31s linear infinite 3s;
+}
+.two{
+  top: 13rem;
+  animation: cross-screen 37s linear infinite 8s;
+}
+.three {
+  top: -1rem;
+  animation: cross-screen 27s linear infinite 14s;
+}
+
+.sun {
+  position: absolute;
+  left: 65vw;
+  top: 10%;
+  background-image: url("../public/images/sun.svg");
+  background-repeat: no-repeat;
+  height: 7rem;
+  width: 7rem;
+}

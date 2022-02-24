@@ -1,0 +1,45 @@
+.ocean {
+  position: absolute;
+  left:0;
+  top:70vh;
+  background-color: var(--ch-light-blue);
+  min-width: 100vw;
+  min-height: 30vh;
+}
+
+.dark-waves {
+  position: absolute;
+  top: -5vh;
+  min-width: 110vw;
+  min-height: 100%;
+  background-repeat: repeat-x;
+  background-image: url("../public/images/waterline-back-loop.svg");
+  animation: waves 4.3s ease-in-out infinite;
+}
+
+.light-waves {
+  position: absolute;
+  min-width: 110vw;
+  min-height: 100%;
+  background-repeat: repeat-x;
+  background-image: url("../public/images/waterline-front-loop.svg");
+  animation: waves 5.2s ease-in-out infinite;
+  animation-direction: reverse;
+}
+
+.waterline-front {
+  position: absolute;
+  top: 6rem;
+  min-width: 110vw;
+  min-height: 100%;
+}
+
+.waterline-back {
+  position: absolute;
+  min-width: 110vw;
+  min-height: 100%;
+}
+
+.bottom {
+  top: calc(100% - 80px);
+}
