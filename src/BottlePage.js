@@ -22,7 +22,7 @@ function BottlePage() {
   }
 
   function buttonClicked() {
-
+    setIslandActive("inactive");
   }
 
   function onSubmit(event) {
