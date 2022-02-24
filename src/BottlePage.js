@@ -11,7 +11,7 @@ function BottlePage() {
 
   function bottleClicked(event) {
     setMessageActive("active");
-    //setMessageString("Hi");
+    setMessageString("Hi");
     setTimeout(function () {
       setMessageActive("inactive")
     }, 10000);
@@ -39,7 +39,7 @@ function BottlePage() {
   <div id="message-scroll" className={messageActive}>
     <img className = "message-scroll-image" src="https://assets.codepen.io/3073193/scroll-top.svg" />
     <div className = "message-scroll-bg">
-      <h1 id="scrollText" className="message inactive">{messageString}</h1>
+      <h1 id="scrollText" className="message">{messageString}</h1>
     </div>
   </div>
   <div id="form-scroll" className={islandActive}>
@@ -48,7 +48,7 @@ function BottlePage() {
       <form className="form" method="post" onSubmit={onSubmit}>
         <div className="container">
           <textarea className="textarea" name="name" rows="12" cols="36"></textarea>
-          <button className="submit-button" type="submit" name="button">Put In Bottle</button>
+          <button onClick={buttonClicked} className="submit-button" type="submit" name="button">Put In Bottle</button>
         </div>
       </form>
     </div>
