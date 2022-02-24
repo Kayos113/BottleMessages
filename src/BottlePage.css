@@ -16,7 +16,7 @@ body {
 
 /* SCROLL CSS */
 
-.message-scroll {
+#message-scroll {
   z-index:0;
   position: absolute;
   left: calc(50% - (32rem/2));
