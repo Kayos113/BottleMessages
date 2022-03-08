@@ -1,7 +1,9 @@
 import  React, { useState } from "react";
+import axios from "axios";
 import "./BottlePage.css";
 import Sky from "./Sky"
 import Ocean from "./Ocean";
+import db from "./api.js";
 
 function BottlePage() {
 
@@ -10,8 +12,24 @@ function BottlePage() {
   const [messageActive, setMessageActive] = useState("inactive");
 
   function bottleClicked(event) {
+    let message;
+    axios({
+      method: 'get',
+      url: 'https://bottle-backend-api.herokuapp.com/messages/rand',
+      responseType: 'json'
+    })
+    .then(function (response) {
+      console.log("RESPONSE:");
+      console.log(response);
+      message = response.data.message;
+    })
+    .catch( err => {
+      console.log(err);
+      message = "Oops. Wrong Bottle."
+    }).then( () => {
+      setMessageString(message);
+    });
     setMessageActive("active");
-    setMessageString("Hi");
     setTimeout(function () {
       setMessageActive("inactive")
     }, 10000);
