@@ -8,6 +8,7 @@ import db from "./api.js";
 function BottlePage() {
 
   const [messageString, setMessageString] = useState("");
+  const [writtenMessage, setWrittenMessage] = useState("");
   const [islandActive, setIslandActive] = useState("inactive");
   const [messageActive, setMessageActive] = useState("inactive");
 
@@ -19,8 +20,6 @@ function BottlePage() {
       responseType: 'json'
     })
     .then(function (response) {
-      console.log("RESPONSE:");
-      console.log(response);
       message = response.data.message;
     })
     .catch( err => {
@@ -45,6 +44,23 @@ function BottlePage() {
 
   function onSubmit(event) {
     event.preventDefault();
+    axios({
+      method: "post",
+      url: "https://bottle-backend-api.herokuapp.com/messages/all",
+      data: {
+        message: writtenMessage
+      }
+    })
+    .then( response => {
+      console.log("message sent successfully");
+    })
+    .catch( err => {
+      console.log(err);
+    });
+  }
+
+  function writtenMessageChange(event) {
+    setWrittenMessage(event.target.value);
   }
 
   return (
@@ -65,7 +81,7 @@ function BottlePage() {
     <div className = "form-scroll-bg">
       <form className="form" method="post" onSubmit={onSubmit}>
         <div className="container">
-          <textarea className="textarea" name="name" rows="12" cols="36"></textarea>
+          <textarea onChange={writtenMessageChange} className="textarea" name="name" rows="12" cols="36"></textarea>
           <button onClick={buttonClicked} className="submit-button" type="submit" name="button">Put In Bottle</button>
         </div>
       </form>
