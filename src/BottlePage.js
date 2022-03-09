@@ -44,19 +44,21 @@ function BottlePage() {
 
   function onSubmit(event) {
     event.preventDefault();
-    axios({
-      method: "post",
-      url: "https://bottle-backend-api.herokuapp.com/messages/all",
-      data: {
-        message: writtenMessage
-      }
-    })
-    .then( response => {
-      console.log("message sent successfully");
-    })
-    .catch( err => {
-      console.log(err);
-    });
+    if(!writtenMessage==="") { //prevent empty messages from being passed through for some reason
+      axios({
+        method: "post",
+        url: "https://bottle-backend-api.herokuapp.com/messages/all",
+        data: {
+          message: writtenMessage
+        }
+      })
+      .then( response => {
+        console.log("message sent successfully");
+      })
+      .catch( err => {
+        console.log(err);
+      });
+    }
   }
 
   function writtenMessageChange(event) {
