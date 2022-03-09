@@ -44,7 +44,7 @@ function BottlePage() {
 
   function onSubmit(event) {
     event.preventDefault();
-    if(!writtenMessage==="") { //prevent empty messages from being passed through for some reason
+    if(!(writtenMessage==="")) { // prevent empty messages from being passed through
       axios({
         method: "post",
         url: "https://bottle-backend-api.herokuapp.com/messages/all",
