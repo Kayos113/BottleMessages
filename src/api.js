@@ -4,7 +4,7 @@ exports.getRandomMessage = function() {
   let message;
   axios({
     method: 'get',
-    url: 'https://bottle-backend-api.herokuapp.com/messages/rand',
+    url: 'https://bottle-backend-api.herokuapp.com',
     responseType: 'json'
   })
   .then(function (response) {
