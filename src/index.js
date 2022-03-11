@@ -4,6 +4,7 @@ import './index.css';
 import Canvas from './BottlePage';
 import reportWebVitals from './reportWebVitals';
 
+const axios = require("axios");
 axios({
   method: 'get',
   url: 'https://bottle-backend-api.herokuapp.com',
