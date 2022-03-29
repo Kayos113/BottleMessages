@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import  React, { useState } from "react";
 import axios from "axios";
 import "./BottlePage.css";
