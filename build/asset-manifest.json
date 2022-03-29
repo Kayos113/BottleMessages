@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fcf7f1f.css",
+    "main.js": "/static/js/main.c78d31ac.js",
+    "static/js/787.d15f4dee.chunk.js": "/static/js/787.d15f4dee.chunk.js",
+    "static/media/sun.svg": "/static/media/sun.6807a057906756818fe4.svg",
+    "static/media/waterline-back-loop.svg": "/static/media/waterline-back-loop.db1aa207fee5610e00ef.svg",
+    "static/media/waterline-front-loop.svg": "/static/media/waterline-front-loop.55e5ec08737cd9b16944.svg",
+    "index.html": "/index.html",
+    "main.9fcf7f1f.css.map": "/static/css/main.9fcf7f1f.css.map",
+    "main.c78d31ac.js.map": "/static/js/main.c78d31ac.js.map",
+    "787.d15f4dee.chunk.js.map": "/static/js/787.d15f4dee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fcf7f1f.css",
+    "static/js/main.c78d31ac.js"
+  ]
+}

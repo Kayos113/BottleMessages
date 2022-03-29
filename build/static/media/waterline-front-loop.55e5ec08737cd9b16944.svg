@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 81" width="445" height="81">
+	<title>waterline-front-svg</title>
+	<defs>
+		<image  width="535" height="81" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhcAAABRBAMAAACTaZkjAAAAAXNSR0IB2cksfwAAACdQTFRFAAAAnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/Tnd/TecnosQAAAA10Uk5TAE/f/48vt7/3N39vX5RfrH8AAAHuSURBVHic7ZbBTRxBFAVHMhiQOViQACEMGgzIVydgCQkCIAFy2ASQSIAcSBDNcKmd6d/dH45UnYvHn9pl2WGIOZtmxooBFvcq4U597v3iPvXJu9m96XNfluHrLncCrR6HlFvDO7ivDfcH3MvMxS2Xw81Xm3LzBzLuerh6xReOqA4fZYaHx/V05Q9g/XjVQ7ZufMgXhy9C93zj/o2HC8vTdNt/cnx0yY1qZIZ/ZYZLbpy5aAd+8eRou+yWj/6XGD7ODGeeLrSnP/0tytuRWzo6M3yaGY7c8v+gyC4dEp5cOnoXutujU8Oxux2+ywzXzthuV9zNds1dD9eOSA0/Z57udZj67c3RVXc1HHwGFIfrR6y+J2WOaD3dvl+3948+abh7wy13zMifdRtPN8fAIa1ljre60f2ZGX5ru/8TR/Q/3fhh3HYOL1wMqy/gFZa39EOn/Lvz9ZhZvgTGH8n7zO5BWxt7f/l3wBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBjAGMAYwBhgfAdnXqtjiZnnaAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 2" href="#img1" x="-12" y="0" />
+</svg>
