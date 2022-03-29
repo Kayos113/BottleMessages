@@ -1,10 +1,8 @@
-import 'dotenv/config';
 import  React, { useState } from "react";
 import axios from "axios";
 import "./BottlePage.css";
 import Sky from "./Sky"
 import Ocean from "./Ocean";
-import db from "./api.js";
 
 function BottlePage() {
 
@@ -74,13 +72,13 @@ function BottlePage() {
     islandClicked={islandClicked}
   />
   <div id="message-scroll" className={messageActive}>
-    <img className = "message-scroll-image" src="https://assets.codepen.io/3073193/scroll-top.svg" />
+    <img className = "message-scroll-image" src="https://assets.codepen.io/3073193/scroll-top.svg" alt="" />
     <div className = "message-scroll-bg">
       <h1 id="scrollText" className="message">{messageString}</h1>
     </div>
   </div>
   <div id="form-scroll" className={islandActive}>
-    <img className = "form-scroll-image" src="https://assets.codepen.io/3073193/scroll-top.svg" />
+    <img className = "form-scroll-image" src="https://assets.codepen.io/3073193/scroll-top.svg" alt="" />
     <div className = "form-scroll-bg">
       <form className="form" method="post" onSubmit={onSubmit}>
         <div className="container">
